@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cadastro de Cliente<h1>
+    
+    <!-- dados do cliente -->
+   <h1>Cadastro de Cliente<h1>
       <form>
        <label> Nome do cliente 
        <input></input>
@@ -76,46 +78,125 @@
        </label>
       
       
-       <!-- dados do cliente -->
+       <!-- contatos cliente -->
        
+       <!-- 1 -->
        
-       
-       <label>
+       <label> Nome
        <input></input>
        </label>
        
-       <label>
-       <input></input>
-       </label>
-      
-       <label>
-       <input></input>
-       </label>
-       
-       <label>
-       <input></input>
-       </label>
-       
-       <label>
-       <input></input>
-       </label>
-       
-       <label>
-       <input></input>
-       </label>
-       
-       <label>
+       <label> Email
        <input></input>
        </label>
       
-       <label>
+       <label> Fone
+       <input></input>
+       </label>
+       
+       <label> Caigo
+       <input></input>
+       </label>
+       
+       <!-- 2 -->
+       
+       <label> Nome
+       <input></input>
+       </label>
+       
+       <label> Email
        <input></input>
        </label>
       
-       <label>
+       <label> Fone
+       <input></input>
+       </label>
+       
+       <label> Caigo
+       <input></input>
+       </label>
+        <!-- 3 -->
+       <label> Nome
+       <input></input>
+       </label>
+       
+       <label> Email
+       <input></input>
+       </label>
+      
+       <label> Fone
+       <input></input>
+       </label>
+       
+       <label> Caigo
+       <input></input>
+       </label>
+       <!-- 4-->
+       <label> Nome
+       <input></input>
+       </label>
+       
+       <label> Email
+       <input></input>
+       </label>
+      
+       <label> Fone
+       <input></input>
+       </label>
+       
+       <label> Caigo
+       <input></input>
+       </label>
+         <!-- 5 -->
+       <label> Nome
+       <input></input>
+       </label>
+       
+       <label> Email
+       <input></input>
+       </label>
+      
+       <label> Fone
+       <input></input>
+       </label>
+       
+       <label> Caigo
+       <input></input>
+       </label>
+
+
+       
+       
+       <!-- endereco do cliente -->
+       
+       
+       <label> CEP
+       <input></input>
+       </label>
+       
+       <label> Endereço
+       <input></input>
+       </label>
+      
+       <label> Numero
+       <input></input>
+       </label>
+      
+       <label> Complemento
        <input></input>
        </label> 
-    
+       
+       <label> Bairro
+       <input></input>
+       </label> 
+       
+       <label> Cidade
+       <input></input>
+       </label> 
+
+
+
+
       </form>
 
 </body>
