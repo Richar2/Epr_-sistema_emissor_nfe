@@ -5,27 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset ('/css/staly_forms.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
     <title>Document</title>
 </head>
 <body>
     
     <!-- dados do cliente -->
+   <div id="form_container">
+   
    <h1>Cadastro de Cliente<h1>
+     
+     
       <form>
-       <label> Nome do cliente 
-       <input></input>
-       </label>
+       
       
-       <label> Tipo:
-       <input></input>
+      <div class="line_one_obg1" >
+      <label> 
+       Nome do cliente
+      <input type="text">
+      </label>
+      </div>
+
+       <div class="line_two_obg2">     
+       <label> 
+       Tipo:
+       <input>
        <label>
-      
-       <label> Status do cliente
-       <input></input>
+       </div>
+       
+       <div class="line_three_obg3">
+       <label> 
+       Status do cliente
+       <input>
        </label>
-      
-       <label> CNPJ
-       <input></input>
+       </div>
+
+
+       <label> <p>CNPJ</p>
+       <input>
        </label>
       
        <label> Razão social
@@ -78,6 +96,7 @@
        </label>
       
       
+       
        <!-- contatos cliente -->
        
        <!-- 1 -->
@@ -198,6 +217,8 @@
 
 
       </form>
-
+   </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
 </body>
 </html>

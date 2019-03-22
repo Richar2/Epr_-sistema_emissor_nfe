@@ -7,7 +7,7 @@
      
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-           -box-sizing: border-box;
+            box-sizing: border-box;
   }
 /**
 =================================================
@@ -15,8 +15,25 @@
 =================================================
 **/
 
+#form_container{
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute; 
+}
+
+input {
+    display: block;
+  }
 label{
     padding: 10px;
 }
-
+.line_one_obg1{
+    padding-left: 30px;
+}
+.line_two_obg2{
+    padding-left: 30px;
+}
+.line_three_obg3{
+    padding-left: 30px;
+}
 
