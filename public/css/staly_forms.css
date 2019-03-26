@@ -16,24 +16,171 @@
 **/
 
 #form_container{
-    margin-left: 50px;
-    margin-right: 50px;
-    position: absolute; 
+    margin-left: 10%;
+    width: 80%;
+    
+
+    
+    position: relative;
+    background-color: aqua; 
 }
 
 input {
     display: block;
+    
   }
-label{
+  button {
+    display: block;
+    
+  }
+  label{
     padding: 10px;
 }
+span{
+    display: inline;
+    padding: 10px;
+
+}
+
+
+.line{
+    
+    color: brown; 
+   
+}
+
 .line_one_obg1{
     padding-left: 30px;
+    position: absolute;
+   
+    
 }
 .line_two_obg2{
-    padding-left: 30px;
+   
+    padding-left: 20%;
+    left: 25%;
+    position: absolute
+
+
 }
 .line_three_obg3{
     padding-left: 30px;
+    left: 60%;
+    position: absolute;
+    
+
+}
+/** segunda linha **/
+.line2{
+    
+    position: relative;
 }
 
+.line2_obj1{
+    padding-left: 30px;
+    position:absolute;
+   
+}
+.line2_obj2{
+    padding-left: 20%;
+    left: 25%;
+    position:absolute;
+   
+}
+.line2_obj3{
+    padding-left: 30px;
+    left: 60%;
+    position:absolute;
+   
+}
+/**terceira linha**/
+.line3{
+    
+    position: relative;
+}
+
+.line3_obj1{
+    padding-left: 30px;
+    position:absolute;
+   
+}
+.line3_obj2{
+    padding-left: 20%;
+    left: 25%;
+    position:absolute;
+   
+}
+.line3_obj3{
+    padding-left: 30px;
+    left: 60%;
+    position:absolute;
+   
+}
+.line3_obj4{
+    padding-left: 30px;
+    left: 60%;
+    position:absolute;
+   
+}
+/**quarta linha**/
+
+.line4{
+    
+    position: relative;
+}
+
+.line4_obj1{
+    padding-left: 30px;
+    position:absolute;
+   
+}
+.line4_obj2{
+    padding-left: 20%;
+    left: 25%;
+    position:absolute;
+   
+}
+.line4_obj3{
+    padding-left: 30px;
+    left: 60%;
+    position:absolute;
+   
+}
+.line4_obj4{
+    padding-left: 30px;
+    left: 60%;
+    position:absolute;
+   
+}
+/** quinta lihna**/
+.line5{
+    
+    position: relative;
+}
+
+.line5_obj1{
+    padding-left: 30px;
+    position:absolute;
+   
+}
+.line5_obj2{
+   
+    
+    position:absolute;
+   
+}
+
+/**segundo bloco**/
+
+.bloco_2{
+
+}
+
+
+
+
+
+/**terceiro bloco**/
+.bloco_2{
+
+}

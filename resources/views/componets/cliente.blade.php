@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset ('/css/staly_forms.css')}}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -18,207 +17,169 @@
      
      
       <form>
-       
+     <section class="line">
       
       <div class="line_one_obg1" >
-      <label> 
-       Nome do cliente
-      <input type="text">
-      </label>
+           <label>Nome do cliente</label>
+            <input type="text">
       </div>
 
        <div class="line_two_obg2">     
-       <label> 
-       Tipo:
-       <input>
-       <label>
+            <label>Tipo:</label>
+            <input>
        </div>
        
        <div class="line_three_obg3">
-       <label> 
-       Status do cliente
-       <input>
-       </label>
+             <label>Status do cliente</label>
+            <button name="button">Click me</button>
        </div>
+      
+                <br><br><section class="line2">
 
+                    <div class="line2_obj1">
+                   
+                          <label> CNPJ </label>
+                          <input>
+                    </div>
+                    <div class="line2_obj2">      
+                          <label> Razão social</label>
+                          <input>   
+                    </div>
+                    
+                    <div class="line2_obj3">
+                           <label> Indicador de inscrição estadual</label>
+                           <input>
+                    </div>
+               </secton>
+               
+               <br><br><section class="line3">
+                          
+                          <div class="line3_obj1">
+                          <label> Inscrição estadual</label>
+                           <input>
+                           </div>
 
-       <label> <p>CNPJ</p>
-       <input>
-       </label>
-      
-       <label> Razão social
-       <input></input>    
-       </label>
-      
-       <label> Indicador de inscrição estadual
-       <input></input>
-       </label>
-      
-       <label> Inscrição estadual
-       <input></input>
-       </label>
-       
-       <label> Inscrição municipal
-       <input></input>
-       </label>
-      
-       <label> Inscrição SUFRAMA
-       <input></input>
-       </label>
+                           <div class="line3_obj2">
+                           <label> Inscrição municipal</label>
+                           <input></input>
+                           </div>
 
-       <label>  Optando pelo SIMPLES
-       <input></input>
-       </label>
+                           <div class="line3_obj3">
+                           <label> Inscrição SUFRAMA</label>
+                           <input>
+                           </div>
 
-       <label>  Email principal 
-       <input></input>
-       </label>
+                           <div class="line3_obj4">  
+                           <label>  Optando pelo SIMPLES</label>
+                           <input type="checkbox">
+                           </div>
+                                   
+                      </section> 
+                      
+                       <br><br><section class="line4">
+                               
+                               <div class="line4_obj1">
+                               <label>  Email principal   </label> 
+                               
+                               <input>
+                               
+                               </div>
+                               
+                               <div class="line4_obj2">
+                               <label>  Telefone comercial </label>
+                               
+                               <input>
+                               
+                               </div>
+                               
+                               <div class="line4_obj3">
+                               <label>  Telefone celular  </label>
+                              
+                               <input>
+                               
+                               </div>
+                               
+                               <div class="line4_obj4">
+                               <label>  Data de fundação  </label>
+                               
+                               <input>
+                              
+                               </div>      
+                    
+                     </section>
+                     
+                     <br><br><section class"line5">
+                              <div class="line5_obj1">
+                              <label>Código do cliente</label>
+                              <input>
+                              </div>
+                              
+                              <div class="line5_obj2">
+                              <label>  Observações </label>
+                              <textarea></textarea>
+                              </div>
+                     
+                        </section>  
 
-
-       <label>  Telefone comercial
-       <input></input>
-       </label>
-       
-       <label>  Telefone celular
-       <input></input>
-       </label>
+     </section>
+     <section class="bloco_2">
+       <h1>Contato dos Clientes</h1>
       
-       <label>  Data de fundação
-       <input></input>
-       </label>
-       
-       <label>  Código do cliente
-       <input></input>
-       </label>
-      
-       <label>  Observações
-       <input></input>
-       </label>
-      
-      
-       
        <!-- contatos cliente -->
        
        <!-- 1 -->
+       <div>
+       <label> Nome </label>
+       <input>
+       </div>
        
-       <label> Nome
-       <input></input>
-       </label>
-       
-       <label> Email
-       <input></input>
-       </label>
+       <div>
+       <label> Email </label>
+       <input>
+       </div>
       
-       <label> Fone
-       <input></input>
-       </label>
+       <div>
+       <label> Fone</label>
+       <input>
+       </div>
        
-       <label> Caigo
-       <input></input>
-       </label>
-       
-       <!-- 2 -->
-       
-       <label> Nome
-       <input></input>
-       </label>
-       
-       <label> Email
-       <input></input>
-       </label>
-      
-       <label> Fone
-       <input></input>
-       </label>
-       
-       <label> Caigo
-       <input></input>
-       </label>
-        <!-- 3 -->
-       <label> Nome
-       <input></input>
-       </label>
-       
-       <label> Email
-       <input></input>
-       </label>
-      
-       <label> Fone
-       <input></input>
-       </label>
-       
-       <label> Caigo
-       <input></input>
-       </label>
-       <!-- 4-->
-       <label> Nome
-       <input></input>
-       </label>
-       
-       <label> Email
-       <input></input>
-       </label>
-      
-       <label> Fone
-       <input></input>
-       </label>
-       
-       <label> Caigo
-       <input></input>
-       </label>
-         <!-- 5 -->
-       <label> Nome
-       <input></input>
-       </label>
-       
-       <label> Email
-       <input></input>
-       </label>
-      
-       <label> Fone
-       <input></input>
-       </label>
-       
-       <label> Caigo
-       <input></input>
-       </label>
+       <div>
+       <label> Caigo</label>
+       <input>
+       </div>
 
+      </section>
+      <section class="bloco_3">
+          <!-- endereco do cliente -->
+       
+       
+       <label> CEP </label>
+       <input>
+       
+       
+       <label> Endereço </label>
+       <input>
+       
+      
+       <label> Numero </label>
+       <input>
+      
+       <label> Complemento </label>
+       <input>
+        
+       
+       <label> Bairro </label>
+       <input>
+       
+       
+       <label> Cidade</label>
+       <input>
+        
 
        
-       
-       <!-- endereco do cliente -->
-       
-       
-       <label> CEP
-       <input></input>
-       </label>
-       
-       <label> Endereço
-       <input></input>
-       </label>
-      
-       <label> Numero
-       <input></input>
-       </label>
-      
-       <label> Complemento
-       <input></input>
-       </label> 
-       
-       <label> Bairro
-       <input></input>
-       </label> 
-       
-       <label> Cidade
-       <input></input>
-       </label> 
-
-
-
-
+      </section>
       </form>
    </div>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+  
 </body>
 </html>
